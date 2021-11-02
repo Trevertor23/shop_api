@@ -15,4 +15,4 @@ var ItemsSchema = new Schema({
   }
 });
 
-module.exports = mongoose.model('Items', ItemsSchema);
+module.exports = mongoose.model('products', ItemsSchema);
